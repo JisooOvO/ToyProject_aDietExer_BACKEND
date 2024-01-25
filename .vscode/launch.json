@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MiniProjectADietExApplication<MiniProject_ADietEx>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "edu.pnu.MiniProjectADietExApplication",
+            "projectName": "MiniProject_ADietEx",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

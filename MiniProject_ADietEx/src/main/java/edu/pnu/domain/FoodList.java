@@ -6,6 +6,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Index;
 import jakarta.persistence.Table;
@@ -27,7 +29,6 @@ import lombok.ToString;
 public class FoodList {
 	
 	@Id
-	@JsonIgnore
 	private String food_code;
 	@Column(name = "food_name")
 	private String foodname; // 식단 이름

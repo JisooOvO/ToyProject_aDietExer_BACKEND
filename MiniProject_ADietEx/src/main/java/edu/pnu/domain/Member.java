@@ -36,6 +36,4 @@ public class Member {
 	private Role role;
 	private String email;
 	
-	
-
 }
